@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="img/layout_set_logo.jfif" alt="logo_Afpa">
+    </header>
+    <main>
+        <form action="">
+            <section id="art">
+                    <article id="info">
+                        <input type="text" name="Nom_prénom" placeholder="Nom - Prénom">
+                        <input type="email" name="email" placeholder="Courriel">
+                        <input type="tel" name="tel" placeholder="Téléphone">
+                        <select name="genre" placeholder="Vous êtes...">
+                            <option value="">Développeur</option>
+                            <option value="">Technicien</option>
+                            <option value="">Chômeur</option>
+                        </select>
+                        <textarea name="commentaires" id="" placeholder="Commentaires"></textarea>
+                    </article>
+                    <article id="choix">
+                        <fieldset>
+                            <legend>Quelle est la meilleure manière de vous contacter ?</legend>
+                            <section class="table">
+                                <div>
+                                    <input type="radio" id="tel" name="contact" value="T" class="taille"/>
+                                    <label for="tel" class="largeur">Téléphone</label><br>
+                                </div>
+                                <div>
+                                    <input type="radio" id="msg" name="contact" value="C"class="taille"/>
+                                    <label for="msg" class="largeur">Courriel</label><br>
+                                </div>
+                            </section>
+                        </fieldset>
+                
+                        <fieldset>
+                            <legend>Jours de la semaine ou vous êtes disponible :</legend>
+                            <section class="table">
+                                <div>
+                                    <input type="checkbox" id="jour" name="L" class="taille">
+                                    <label for="jour" class="largeur">Lundi</label>
+                                </div>
+                                <div>                              
+                                    <input type="checkbox" id="jour" name="L" class="taille">
+                                    <label for="jour" class="largeur">Mardi</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" id="jour" name="L" class="taille">
+                                    <label for="jour" class="largeur">Mercredi</label>
+                                </div>
+                                <div>                           
+                                        <input type="checkbox" id="jour" name="L" class="taille">
+                                        <label for="jour" class="largeur">Jeudi</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" id="jour" name="L" class="taille">
+                                        <label for="jour" class="largeur">Vendredi</label>
+                                    </div>
+                            </section>
+                        </fieldset>
+                    
+                        <fieldset>
+                            <legend>Heure appropriée pour un rendez-vous</legend>
+                            <section class="table">
+                                <div>
+                                    <input type="checkbox" name="Matin " id="periode" class="taille">
+                                    <label for="periode" class="largeur">Matin</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" name="Matin " id="periode" class="taille">
+                                    <label for="periode" class="largeur">Après-midi</label>
+                                </div>
+                            </section>
+                        </fieldset>
+                    </article>
+            </section>
+            <hr>
+            <section id="btn">
+               
+                <button type="submit">Envoyer</button>
+            </section>    
+
+        </form>
+    </main>
+</body>
+</html>

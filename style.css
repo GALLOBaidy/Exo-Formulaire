@@ -1,0 +1,121 @@
+body {
+    padding: 0;
+    margin: 20px;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center; 
+}
+
+header{
+    display: flex;
+}
+
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    /* width: 50%;*/ 
+    margin: 20px;
+    padding-bottom: 20px;
+    border: solid aquamarine;
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+
+textarea {
+    height: 150px;
+    width: 350px;
+}
+
+ hr {  
+    width: 95%; 
+    border:1px solid aquamarine;
+ }
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+#art {
+    /* display: flex; */
+    flex-direction: row;
+    margin: 10px;
+    padding: 10px;
+    /* justify-content: space-between; */
+    /* width: 50%; */
+    height: 50%;
+}
+
+
+fieldset {
+    display: flex;
+    flex-direction: row;
+    border: none;
+    /* margin: 20px;
+    padding: 20px; */
+    /* width: 50em;*/
+    /* height: 100px;  */
+}
+
+legend {
+    font-weight: bold;
+}
+
+.table {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+button {
+    background-color: rgb(4, 85, 58);
+    border: none;
+    color: white;
+}
+
+
+#btn {
+
+    height: 50%;
+    border: solid 10px rgb(4, 85, 58);
+    background-color: rgb(4, 85, 58);
+}
+    /* 
+    width: 50%;
+    padding: 10px;
+    margin: 10px;
+     */
+
+
+
+/* #info {
+    justify-content: space-between;
+    /* height: 0%; 
+    width: 50%; 
+}*/
+/* 
+.largeur {
+    width: 10%;
+} */
+/* .taille {
+    width: 10%;
+} */
